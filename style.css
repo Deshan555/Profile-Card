@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Inconsolata', monospace;
+
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    background: #212121;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.profile-card{
+    width: 90%;
+
+    max-width: 450px;
+
+    text-align: center;
+
+    background: #fff;
+
+    color: #333;
+
+    border-radius: 50px;
+}
+
+.cover-image{
+
+    display: block;
+
+    width: 100%;
+}
+
+.profile-image{
+
+    width: 140px;
+
+    border-radius: 50%;
+
+    margin-top: -70px;
+}
+
+.profile-card h1{
+    font-weight: 600;
+}
+
+.fallow-btn{
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    border: 1px solid #ff004f;
+
+    color: #555;
+
+    padding: 6px 35px;
+
+    margin: 25px 0;
+}
+
+.row{
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.row h2{
+    font-weight: 500;
+
+    font-size: 30px;
+}
+
+.view-btn{
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: #ff004f;
+
+    color: #fff;
+
+    width: 100%;
+
+    padding: 15px 0;
+
+    margin-top: 20px;
+}
